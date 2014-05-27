@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ch003radiobutton.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="性别" />
+
+    <RadioGroup
+        android:id="@+id/sexGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="是否同意"/>
+    <RadioGroup
+        android:id="@+id/agreeGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同意" />
+
+        <RadioButton
+            android:id="@+id/radio_disagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不同意" />
+    </RadioGroup>
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="未分组按钮"
+        />
+    <RadioButton android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未分组1"/>
+    <RadioButton android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未分组2"/>
+    <RadioButton android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未分组3"/>
+
+</LinearLayout>
