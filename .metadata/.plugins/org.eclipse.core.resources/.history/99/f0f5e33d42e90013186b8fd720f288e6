@@ -1,0 +1,28 @@
+package com.example.ch003listactivity;
+
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class MainActivity extends ListActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		// 获取数据源
+		String[] items = getResources().getStringArray(R.array.items);
+		
+		// 获取ListView组件
+		ListView list = getListView();
+		
+		// 设置适配器，将系统自带的布局simple_expandable_list_item_1与数据源绑定
+		// 并将此布局设为ListView每一行记录的布局
+		setListAdapter(new ArrayAdapter<String>(MainActivity.this,
+				android.R.layout.simple_expandable_list_item_1, items));
+
+	}
+
+}
