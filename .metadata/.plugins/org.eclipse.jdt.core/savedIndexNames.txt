@@ -6,4 +6,3 @@ INDEX VERSION 1.126+E:\github\android-examples\.metadata\.plugins\org.eclipse.jd
 990563727.index
 456356077.index
 3898710248.index
-3317668520.index

@@ -15,13 +15,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         tabHost = (TabHost)findViewById(android.R.id.tabhost);
         tabHost.setup();
-        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("æ ‡ç­¾ä¸€").setContent(R.id.tab1));
-        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("æ ‡ç­¾äºŒ").setContent(R.id.tab2));
-        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("æ ‡ç­¾ä¸‰").setContent(R.id.tab3));
+        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("±êÇ©Ò»").setContent(R.id.tab1));
+        tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("±êÇ©¶þ").setContent(R.id.tab2));
+        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("±êÇ©Èý").setContent(R.id.tab3));
         
         tab2 = (LinearLayout)findViewById(R.id.tab2);
         button = new Button(MainActivity.this);
-        button.setText("æµ‹è¯•");
+        button.setText("²âÊÔ");
         tab2.addView(button);
         
         
