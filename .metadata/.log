@@ -1930,3 +1930,6 @@ java.lang.IllegalStateException: ScrollView can host only one direct child
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-06-02 07:44:56.483
+!MESSAGE Failed to load properties file for project 'Ch003Menu'
