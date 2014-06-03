@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ch003button.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:text="@string/btn1" />
+
+    <ImageButton
+        android:id="@+id/imgbtn"
+        android:layout_width="130dp"
+        android:layout_height="300dp"
+        android:src="@drawable/selector" />
+    <ToggleButton 
+        android:id="@+id/toggle_btn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:textOn="@string/btn_on"
+        android:textOff="@string/btn_off"/>
+
+</LinearLayout>
