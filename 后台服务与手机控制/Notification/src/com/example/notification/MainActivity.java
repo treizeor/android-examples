@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	private Button button1;
+	private Button button1, button2;
 	private NotificationManager nm;
 	static final int NOTIFICATION_ID = 0x123;
 
@@ -22,8 +22,10 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		button1 = (Button) findViewById(R.id.button1);
+		button2 = (Button) findViewById(R.id.button2);
 
 		button1.setOnClickListener(this);
+		button2.setOnClickListener(this);
 		nm = (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
 	}
 
@@ -42,13 +44,16 @@ public class MainActivity extends Activity implements OnClickListener {
 				
 				.setContentTitle("一条新通知")
 				.setContentText("努力码字吧~~~")
-				
+				// 设置默认铃声和默认LED灯
 				.setDefaults(Notification.DEFAULT_SOUND|Notification.DEFAULT_LIGHTS)
 				.setWhen(System.currentTimeMillis())
 				.setContentIntent(pi)
 				.build();
 				
 			nm.notify(NOTIFICATION_ID, notify);
+			break;
+		case R.id.button2:
+			nm.cancel(NOTIFICATION_ID);
 			break;
 		}
 
