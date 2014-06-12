@@ -7,9 +7,6 @@ package com.example.framelayouttest;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import org.w3c.dom.Text;
-
-import android.R.integer;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
