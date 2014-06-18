@@ -4,18 +4,18 @@
     android:layout_height="match_parent" >
     
   
-    <ImageView android:layout_width="64dp"
+    <Button android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src="@drawable/unpatch"/>
-    <ImageView android:layout_width="256dp"
+        android:background="@drawable/unpatch"/>
+    <Button android:layout_width="256dp"
         android:layout_height="64dp"
-        android:src="@drawable/unpatch"/>
+        android:background="@drawable/unpatch"/>
     
-    <ImageView android:layout_width="64dp"
+    <Button android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src="@drawable/patch"/>
-    <ImageView android:layout_width="256dp"
+        android:background="@drawable/patch"/>
+    <Button android:layout_width="256dp"
         android:layout_height="64dp"
-        android:src="@drawable/patch"/>
+        android:background="@drawable/patch"/>
 
 </LinearLayout>
