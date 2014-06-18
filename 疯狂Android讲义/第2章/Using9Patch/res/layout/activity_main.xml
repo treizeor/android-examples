@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+    
+  
+    <ImageView android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/unpatch"/>
+    <ImageView android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:src="@drawable/unpatch"/>
+    
+    <ImageView android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/patch"/>
+    <ImageView android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:src="@drawable/patch"/>
+
+</LinearLayout>
