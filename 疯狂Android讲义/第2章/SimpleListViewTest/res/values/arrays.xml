@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="books">
+        <item >春眠不觉晓</item>
+        <item >处处闻啼鸟</item>
+        <item >夜来风雨声</item>
+        <item >花落知多少</item>
+    </string-array>
+
+</resources>
