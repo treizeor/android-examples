@@ -7,8 +7,12 @@ import java.util.Map;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -37,5 +41,15 @@ public class MainActivity extends Activity {
 				new int[] { R.id.name, R.id.header, R.id.desc });
 		ListView list = (ListView) findViewById(R.id.mylist);
 		list.setAdapter(simpleAdapter);
+		
+		list.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				// TODO Auto-generated method stub
+				Toast.makeText(MainActivity.this, String.valueOf(names[position]), Toast.LENGTH_LONG).show();
+			}
+		});
 	}
 }
