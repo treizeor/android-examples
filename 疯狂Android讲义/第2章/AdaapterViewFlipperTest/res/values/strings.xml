@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdaapterViewFlipperTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="prev">上一个</string>
+    <string name="next">下一个</string>
+    <string name="auto">自动播放</string>
+
+</resources>
