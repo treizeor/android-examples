@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpinnerTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tip">列表框提示信息</string>
+    <string-array name="items">
+        <item>1.琴</item>
+        <item>2.棋</item>
+        <item>3.书</item>
+        <item>4.画</item>
+        <item>5</item>
+    </string-array>
+
+</resources>
