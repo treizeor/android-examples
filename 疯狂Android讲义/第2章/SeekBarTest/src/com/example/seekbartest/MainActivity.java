@@ -1,5 +1,6 @@
 package com.example.seekbartest;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -28,11 +29,12 @@ public class MainActivity extends Activity {
 
 			}
 
-			@Override
+			@SuppressLint("NewApi") @Override
 			public void onProgressChanged(SeekBar seekBar, int progress,
 					boolean fromUser) {
 				// TODO Auto-generated method stub
-				imgView.setAlpha(progress);
+				//imgView.setAlpha(progress);
+				imgView.setImageAlpha(progress);
 			}
 		});
 	}
