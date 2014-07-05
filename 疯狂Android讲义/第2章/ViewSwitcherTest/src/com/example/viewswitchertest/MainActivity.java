@@ -2,9 +2,6 @@ package com.example.viewswitchertest;
 
 import java.util.ArrayList;
 
-import com.example.viewswitchertest.R.id;
-
-import android.R.integer;
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
