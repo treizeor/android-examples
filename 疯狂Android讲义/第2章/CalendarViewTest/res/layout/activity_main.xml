@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick you Birthday" />
+
+    <CalendarView
+        android:id="@+id/canendarview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:firstDayOfWeek="3"
+        android:focusedMonthDateColor="#f00"
+        android:selectedWeekBackgroundColor="#aff"
+        android:shownWeekCount="4"
+        android:unfocusedMonthDateColor="#f9f"
+        android:weekSeparatorLineColor="#ff0" />
+
+</LinearLayout>
