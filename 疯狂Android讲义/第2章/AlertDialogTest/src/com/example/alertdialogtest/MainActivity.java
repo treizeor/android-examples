@@ -37,13 +37,28 @@ public class MainActivity extends Activity {
 
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
-						// TODO Auto-generated method stub
 						show("你选择了" + items[which]);
 					}
 				});
 		setPositiveButton(builder);
 		setNegativeButton(builder);
 		builder.create().show();
+	}
+
+	public void singleChoice(View view) {
+		final String[] items = new String[] { "aaa", "bb", "cccc", "dd" };
+		AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+				.setTitle("单选列表项对话框").setIcon(R.drawable.ic_launcher)
+				.setSingleChoiceItems(items, 1, new OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						// TODO Auto-generated method stub
+						show("你选择了" + items[which]);
+					}
+				});
+		setPositiveButton(builder);
+		setNegativeButton(builder).create().show();
 	}
 
 	private AlertDialog.Builder setPositiveButton(AlertDialog.Builder builder) {
