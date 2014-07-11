@@ -9,6 +9,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.TableLayout;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -85,6 +86,14 @@ public class MainActivity extends Activity {
 		setNegativeButton(builder).create().show();
 	}
 
+	public void customView(View view) {
+		TableLayout loginForm = (TableLayout)getLayoutInflater().inflate(R.layout.login, null);
+		AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this).setTitle("登录").setIcon(R.drawable.ic_launcher);
+		builder.setView(loginForm);
+		setPositiveButton(builder);
+		setNegativeButton(builder).create().show();
+	}
+	
 	private AlertDialog.Builder setPositiveButton(AlertDialog.Builder builder) {
 		return builder.setPositiveButton("确定", new OnClickListener() {
 
