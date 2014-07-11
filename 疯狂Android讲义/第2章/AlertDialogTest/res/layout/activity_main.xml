@@ -35,7 +35,8 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:onClick="customList"
+        android:text="自定义列表项对话框" />
 
     <Button
         android:id="@+id/button6"

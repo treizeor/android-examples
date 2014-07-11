@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -69,6 +70,17 @@ public class MainActivity extends Activity {
 				.setTitle("多选列表项对话框").setIcon(R.drawable.ic_launcher);
 		builder.setMultiChoiceItems(items, new boolean[] { false, true, true,
 				false, true }, null);
+		setPositiveButton(builder);
+		setNegativeButton(builder).create().show();
+	}
+
+	public void customList(View view) {
+		final String[] items = new String[] { "aaa", "ddd", "iii", "kkk",
+				"iili" };
+		AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+				.setTitle("自定义列表项对话框").setIcon(R.drawable.ic_launcher);
+		builder.setAdapter(new ArrayAdapter<String>(MainActivity.this,
+				android.R.layout.simple_list_item_1, items), null);
 		setPositiveButton(builder);
 		setNegativeButton(builder).create().show();
 	}
