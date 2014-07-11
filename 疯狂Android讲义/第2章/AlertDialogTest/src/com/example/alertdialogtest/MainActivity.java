@@ -2,6 +2,7 @@ package com.example.alertdialogtest;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.AliasActivity;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
@@ -57,6 +58,17 @@ public class MainActivity extends Activity {
 						show("你选择了" + items[which]);
 					}
 				});
+		setPositiveButton(builder);
+		setNegativeButton(builder).create().show();
+	}
+
+	public void multiChoice(View view) {
+		final String[] items = new String[] { "aaa", "ddd", "iii", "kkk",
+				"iili" };
+		AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+				.setTitle("多选列表项对话框").setIcon(R.drawable.ic_launcher);
+		builder.setMultiChoiceItems(items, new boolean[] { false, true, true,
+				false, true }, null);
 		setPositiveButton(builder);
 		setNegativeButton(builder).create().show();
 	}
