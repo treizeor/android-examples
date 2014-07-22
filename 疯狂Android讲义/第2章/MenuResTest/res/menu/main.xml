@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menurestest.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/font"
+        android:title="@string/fontSet">
+        <menu>
+            <group android:id="@+id/group1" >
+                <item
+                    android:id="@+id/font_10"
+                    android:title="@string/font_10">
+                </item>
+                <item
+                    android:id="@+id/font_12"
+                    android:title="@string/font_12">
+                </item>
+                <item
+                    android:id="@+id/font_14"
+                    android:title="@string/font_14">
+                </item>
+                <item
+                    android:id="@+id/font_16"
+                    android:title="@string/font_16">
+                </item>
+                <item
+                    android:id="@+id/font_18"
+                    android:title="@string/font_18">
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/color">
+        <menu>
+            <group>
+                <item android:id="@+id/font_red" android:title="@string/red_title"/>
+                <item android:id="@+id/font_blue" android:title="@string/blue_title"/>
+                <item android:id="@+id/font_green" android:title="@string/green_title"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
