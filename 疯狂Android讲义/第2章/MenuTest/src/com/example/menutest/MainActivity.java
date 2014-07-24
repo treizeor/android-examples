@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		//getMenuInflater().inflate(R.menu.main, menu);
 		SubMenu fontMenu = menu.addSubMenu("字体大小");
-		//设置菜单的图标，在新的系统中没展示出来
+		//设置菜单的图标，（事实上，新的API中默认使用了ActionBar的MenuItem代替了Menu，所以不显示图标）
 		fontMenu.setIcon(R.drawable.ic_launcher);
 		fontMenu.setHeaderIcon(R.drawable.ic_launcher);
 		fontMenu.setHeaderTitle("菜单头标题");
