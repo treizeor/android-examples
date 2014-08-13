@@ -7,8 +7,9 @@ import android.widget.ArrayAdapter;
 
 public class MainActivity extends LauncherActivity {
 	String[] names = { "设置程序参数", "查看星际兵种" };
-	
-	Class<?>[] classes = { ExpandableListActivityTest.class, MainActivity.class };
+
+	Class<?>[] classes = { PreferenceActivityTest.class,
+			ExpandableListActivityTest.class };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,7 @@ public class MainActivity extends LauncherActivity {
 				MainActivity.this, android.R.layout.simple_list_item_1, names);
 		setListAdapter(adapter);
 	}
-	
+
 	@Override
 	protected Intent intentForPosition(int position) {
 		// TODO Auto-generated method stub

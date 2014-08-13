@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="ExpandableListActivityTest"></activity>
+        <activity android:name="PreferenceActivityTest"></activity>
     </application>
 
 </manifest>

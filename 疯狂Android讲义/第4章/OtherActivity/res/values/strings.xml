@@ -5,4 +5,28 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="gender_name_list">
+        <item name="male"/>
+        <item name="female"/>
+    </string-array>
+    <string-array name="gender_value_list">
+        <item name="male">男</item>
+        <item name="female">女</item>
+    </string-array>
+    
+     <string-array name="light_strenght_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+     <string-array name="light_value_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
 </resources>
