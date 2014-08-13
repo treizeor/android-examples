@@ -23,13 +23,13 @@ public class ExpandableListActivityTest extends ExpandableListActivity {
 					R.drawable.plane, };
 			
 			private String[] armTypes = new String[]{
-					"神族兵种","虫族兵种","人族兵种",
+					"绁炴棌鍏电","铏棌鍏电","浜烘棌鍏电",
 			};
 			
 			private String[][] arms = new String[][]{
-					{"神族兵种1","神族兵种2","神族兵种3","神族兵种4"},
-					{"虫族兵种1","虫族兵种2","虫族兵种3"},
-					{"人族兵种1","人族兵种2","人族兵种3"},
+					{"绁炴棌鍏电1","绁炴棌鍏电2","绁炴棌鍏电3","绁炴棌鍏电4"},
+					{"铏棌鍏电1","铏棌鍏电2","铏棌鍏电3"},
+					{"浜烘棌鍏电1","浜烘棌鍏电2","浜烘棌鍏电"},
 					
 			};
 

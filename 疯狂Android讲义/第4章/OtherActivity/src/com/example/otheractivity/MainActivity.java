@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
 public class MainActivity extends LauncherActivity {
-	String[] names = { "设置程序参数", "查看星际兵种" };
-	// 定义两个Activity对应的实现类
+	String[] names = { "璁剧疆绋嬪簭鍙傛暟", "鏌ョ湅鏄熼檯鍏电" };
+	
 	Class<?>[] classes = { ExpandableListActivityTest.class, MainActivity.class };
 
 	@Override
