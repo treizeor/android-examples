@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 public class MainActivity extends LauncherActivity {
 	String[] names = { "设置程序参数", "查看星际兵种" };
 	// 定义两个Activity对应的实现类
-	Class<?>[] classes = { MainActivity.class, MainActivity.class };
+	Class<?>[] classes = { ExpandableListActivityTest.class, MainActivity.class };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
