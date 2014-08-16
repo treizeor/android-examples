@@ -11,6 +11,7 @@ public class ResultActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.result_activity);
 		TextView name = (TextView)findViewById(R.id.name);
 		TextView passwd = (TextView)findViewById(R.id.passwd);
 		TextView gender = (TextView)findViewById(R.id.gender);
