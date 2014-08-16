@@ -1,0 +1,68 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入您的注册信息" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请填写项注册的账号"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="密码:"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/passwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="性别:"
+            android:textSize="16sp" />
+
+   		<RadioGroup android:layout_width="match_parent"
+   		    android:layout_height="wrap_content"
+   		    android:orientation="horizontal">
+   		    <RadioButton android:id="@+id/male"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:text="男"
+   		        android:textSize="16sp"/>
+   		    <RadioButton android:id="@+id/female"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:text="女"
+   		        android:textSize="16sp"/>
+   		</RadioGroup>
+    </TableRow>
+    <Button android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+
+</TableLayout>
