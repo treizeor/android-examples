@@ -28,6 +28,13 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <activity android:name="CategoryAttrActivity">
+            <intent-filter >
+                <action android:name="com.aaa.action.CATEGORY"/>
+                <category android:name="com.aaa.category.CATEGORY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
