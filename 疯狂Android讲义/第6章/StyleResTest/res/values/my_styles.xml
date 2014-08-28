@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="style1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#00d</item>
+    </style>
+    
+    <style name="style2" parent="@style/style1">
+        <item name="android:background">#F00</item>
+        <item name="android:padding">8dp</item>
+        
+        <!-- 覆盖父样式中指定的属性 -->
+        <item name="android:textColor">#000</item>
+    </style>
+    
+</resources>

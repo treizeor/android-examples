@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/style1"
+        android:text="样式一一一一"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/style2"
+        android:layout_width="match_parent"
+        android:text="样式二二二二"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
