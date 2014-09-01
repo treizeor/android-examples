@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CanvasTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="circle">圆形</string>
+    <string name="square">方形</string>
+    <string name="rect">矩形</string>
+    <string name="round_rect">圆角矩形</string>
+    <string name="oval">椭圆</string>
+    <string name="triangle">三角形</string>
+    <string name="pentagon">五角形</string>
+    
+
+</resources>
