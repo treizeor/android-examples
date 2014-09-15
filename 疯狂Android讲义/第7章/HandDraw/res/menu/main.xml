@@ -2,10 +2,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.handdraw.MainActivity" >
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+    <item android:title="@string/color">
+        <menu >
+            <group>
+                <item android:id="@+id/red" android:title="@string/red"/>
+                <item android:id="@+id/blue" android:title="@string/blue"/>
+                <item android:id="@+id/green" android:title="@string/green"/>
+            </group>
+        </menu>
+    </item>
+    
+     <item android:title="@string/width">
+        <menu >
+            <group>
+                <item android:id="@+id/width_1" android:title="@string/width_1"/>
+                <item android:id="@+id/width_3" android:title="@string/width_3"/>
+                <item android:id="@+id/width_5" android:title="@string/width_5"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/blur" android:title="blur"/>
+    <item android:id="@+id/emboss" android:title="emboss"/>
 
 </menu>

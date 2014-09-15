@@ -4,5 +4,14 @@
     <string name="app_name">HandDraw</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="color">画笔颜色</string>
+    <string name="red">红色</string>
+    <string name="blue">蓝色</string>
+    <string name="green">绿色</string>
+    
+    <string name="width">画笔粗细</string>
+    <string name="width_1">细</string>
+    <string name="width_3">中</string>
+    <string name="width_5">粗</string>
 
 </resources>
