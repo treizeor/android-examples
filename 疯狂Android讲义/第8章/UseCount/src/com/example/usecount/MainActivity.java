@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		preferences = getSharedPreferences("count", MODE_PRIVATE); // 将保存为count.xml
+		preferences = getSharedPreferences("count", MODE_WORLD_READABLE); // 将保存为count.xml
 		// 读取SharedPreferences里的count数据
 		int count = preferences.getInt("count", 0);
 		// 显示程序以前使用的次数
