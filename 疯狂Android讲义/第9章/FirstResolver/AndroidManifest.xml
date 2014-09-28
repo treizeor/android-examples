@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.firstprovider"
+    package="com.example.firstresolver"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,9 +13,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
-         <activity
-            android:name="com.example.firstprovider.MainActivity"
+        <activity
+            android:name="com.example.firstresolver.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,11 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <provider
-            android:name="FirstProvider"
-            android:authorities="com.example.firstprovider"
-            android:exported="true" />
     </application>
 
 </manifest>
