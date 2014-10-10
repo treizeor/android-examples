@@ -1,4 +1,4 @@
-package com.example.aidlservice;
+package com.example.service;
 
 interface ICat {
 	String getColor();

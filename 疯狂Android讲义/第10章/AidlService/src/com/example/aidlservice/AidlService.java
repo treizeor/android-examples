@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.os.RemoteException;
 
-import com.example.aidlservice.ICat.Stub;
+import com.example.service.ICat.Stub;
 
 public class AidlService extends Service {
 
