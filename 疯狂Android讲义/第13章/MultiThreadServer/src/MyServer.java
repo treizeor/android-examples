@@ -10,7 +10,7 @@ public class MyServer {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		ServerSocket ss = new ServerSocket(30000);
+		ServerSocket ss = new ServerSocket(29000);
 		while (true) {
 			// 此行代码会阻塞，将一直等待客户端的连接
 			Socket s = ss.accept();
