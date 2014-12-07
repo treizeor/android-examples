@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/showLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/startNotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启位置提醒" />
+
+    <Button
+        android:id="@+id/stopNotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭位置提醒" />
+
+</LinearLayout>
